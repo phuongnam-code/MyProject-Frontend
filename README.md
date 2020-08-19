@@ -10,7 +10,6 @@ STEPS{
     - Setup Add to Basket Button                /done
     - Build Checkout page                       /done
     - Build Suptotal component                  /done
-    - Build Login page                          
-    - Deploy the App LIVE on Firebase  
-}
-link: https://www.youtube.com/watch?v=1_IYL9ZMR_Y
+    - Build Login page                          /done        
+    - Deploy the App LIVE on Firebase           /done     
+} =>: https://project-e-clone.web.app/ 
