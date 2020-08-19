@@ -19,7 +19,6 @@ function Home() {
 					image="https://images-na.ssl-images-amazon.com/images/I/61mAgUcy2oL._AC_SL1200_.jpg"
 				/>
 				<Product
-					s="s"
 					id="222"
 					title="HDMI+VGA Input Controller Board Kit LCD Driver Board For B156HAN01.1 LP156WF4 11.6'' 13.3'' 14'' 15.6'' 1920x1080 30Pins edp LCD Screen"
 					price={26.8}
