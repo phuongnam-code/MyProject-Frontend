@@ -14,6 +14,6 @@ function Actor({ actor }) {
 	);
 }
 Actor.propTypes = {
-	actor: PropTypes.string,
+	actor: PropTypes.object,
 };
 export default Actor;
