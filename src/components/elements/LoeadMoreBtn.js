@@ -1,5 +1,6 @@
 import React from "react";
 import { StyledLoadMoreBtn } from "../styles/StyledLoadMoreBtn";
+import PropTypes from "prop-types";
 
 function LoeadMoreBtn({ text, callback }) {
 	return (
@@ -8,5 +9,8 @@ function LoeadMoreBtn({ text, callback }) {
 		</StyledLoadMoreBtn>
 	);
 }
-
+LoeadMoreBtn.propTypes = {
+	text: PropTypes.string,
+	callback: PropTypes.func,
+};
 export default LoeadMoreBtn;

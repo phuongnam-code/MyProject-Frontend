@@ -3,8 +3,9 @@ import NoImage from "../images/no_image.jpg";
 import { StyledMovieInfo } from "../styles/StyledMovieInfo";
 import MovieThumb from "./MovieThumb";
 import { IMAGE_BASE_URL, POSTER_SIZE } from "../../config";
+import PropTypes from "prop-types";
 
-function MovieInfoBar({ movie }) {
+function MovieInfo({ movie }) {
 	return (
 		<StyledMovieInfo backdrop={movie.backdrop_path}>
 			<div className="movieinfo-content">
@@ -32,5 +33,9 @@ function MovieInfoBar({ movie }) {
 		</StyledMovieInfo>
 	);
 }
+MovieInfo.propTypes = {
+	movie: PropTypes.object,
+	directors: PropTypes.array,
+};
 
-export default MovieInfoBar;
+export default MovieInfo;

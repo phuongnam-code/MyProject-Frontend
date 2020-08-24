@@ -2,6 +2,7 @@ import React from "react";
 import NoImage from "../images/no_image.jpg";
 import { StyledActor } from "../styles/StyledActor";
 import { IMAGE_BASE_URL, POSTER_SIZE } from "../../config";
+import PropTypes from "prop-types";
 
 function Actor({ actor }) {
 	return (
@@ -12,5 +13,7 @@ function Actor({ actor }) {
 		</StyledActor>
 	);
 }
-
+Actor.propTypes = {
+	actor: PropTypes.string,
+};
 export default Actor;
