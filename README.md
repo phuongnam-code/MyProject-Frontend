@@ -9,3 +9,4 @@ Section 5: LocalStorage and SessionStorage
 Section 6: Deploy
 =>done : https://nervous-poitras-b679bf.netlify.app/
 Section 7: OPTIONAL - Refactor into using Class Components
+=> done
